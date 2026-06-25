@@ -1,0 +1,41 @@
+{
+  "name": "finmaster-ai",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Comptable Personnel Intelligent - Gestion financière avancée avec IA",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mistralai/mistralai": "^2.3.0",
+    "@supabase/supabase-js": "^2.108.2",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.4.0",
+    "lucide-react": "^1.21.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.0",
+    "recharts": "^3.9.0",
+    "tailwind-merge": "^2.3.0",
+    "uuid": "^14.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@types/uuid": "^10.0.0",
+    "@vitejs/plugin-react": "^6.0.2",
+    "autoprefixer": "^10.4.19",
+    "oxlint": "^1.69.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.0",
+    "vite-plugin-pwa": "^1.2.0"
+  }
+}
